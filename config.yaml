@@ -1,0 +1,25 @@
+# When the script should be run
+START_TIME:
+  year: 2020
+  month: 07
+  day: 22
+  hour: 12
+  minute: 37
+
+# Interval between sending messages (hours)
+DELAY: 1
+# The random delay variation (minutes). Plus or minus minutes to the delay time (this should be more than a delay in minutes)
+DELAY_VARIATION: 15
+
+# Time Zone
+TZ: Asia/Irkutsk
+
+# File with messages
+MESSAGE_FILE: messages.txt
+
+# VK config
+VK:
+  LOGIN:
+  PASSWORD:
+  # person's id who should get messages
+  USER_ID:
